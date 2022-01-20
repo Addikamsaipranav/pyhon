@@ -2,6 +2,7 @@ ip= int(input("enter the number to check wheather its a amstrong number or not")
 # n is the number of digits in the entered input
 str1=str(ip)
 n=len(str(ip))
+num = ip
 result=0
 for i in str1:
     x=int(i)
